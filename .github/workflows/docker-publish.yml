@@ -16,8 +16,8 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t enessermaxhaj1992/my-app:latest .
+          docker build -t enessermaxhaj1992/my-web:latest .
 
       - name: Push Docker image
         run: |
-          docker push enessermaxhaj1992/my-app:latest
+          docker push enessermaxhaj1992/my-web:latest
